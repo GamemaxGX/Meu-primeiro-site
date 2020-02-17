@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(https://js-site02.000webhostapp.com/images/index_fundo.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #000;
+	font-family: arial;
+}
+
+#menu{
+	margin: 0;
+	padding: 0;
+}
+#menu ul{
+	margin: 0;
+	background-color: transparent;
+	list-style: none;
+}
+
+#menu ul li{
+	text-decoration: none;
+	position: relative;;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	transition: 0.7s all;
+	padding: 14px 20px;
+	display: inline-block;
+}
+
+#menu ul li a{
+	padding: 7px 10px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul li a:before{
+	content: '';
+	width: 100%;
+	right: 200px;
+	color: blue;
+	position: absolute;
+	border-bottom: 4px solid;
+	bottom: 0;
+	transition: 0.7 all;
+}
+#menu ul li a:hover:before{
+	right: 0;
+}

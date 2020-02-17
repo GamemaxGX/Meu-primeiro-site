@@ -1,0 +1,16 @@
+body{
+	color: white;
+	background-image: url(https://js-site02.000webhostapp.com/images/down_fundo.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+}
+a:link, a:visited { 
+    color: white;
+    text-decoration:none;
+ }
+a:hover, a:active {
+    color: blue;
+ }

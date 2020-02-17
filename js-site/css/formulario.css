@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://js-site02.000webhostapp.com/images/form_fundo.png);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+	
+
+}
+ form{
+ 	font-size: 16px;
+ 	max-width: 500px;
+ 	margin: 0 auto;
+ 	padding: 0 10px 10px 10px;
+ 	border-radius: 10px;
+
+}
+h1{
+	text-align: center;
+	color: #fffffff0;
+}
+
+input, textarea{
+	width: 470px;
+	padding: 10px;
+}
+.form input{
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+
+}
+
+.enviar input{
+	background: #1c00ffa6;
+	height: 40px;
+	width: 140px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px;
+	color: white;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #100380a6;
+}
+
+textarea{
+	width: 470px;
+	height: 120px;
+	line-height: 20px;
+}
+a:link, a:visited { 
+    color: white;
+    text-decoration:none;
+ }
+a:hover, a:active {
+    color: blue;
+}
